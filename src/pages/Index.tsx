@@ -221,16 +221,6 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle>
-                  Адрес
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">г. Москва, ул. Тверская, д. 1</p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Icon name="Phone" size={24} className="text-secondary" />
                   Телефон
@@ -249,16 +239,6 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">info@globus-travel.ru</p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle>
-                  Режим работы
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">Пн-Пт: 9:00 - 20:00<br />Сб-Вс: 10:00 - 18:00</p>
               </CardContent>
             </Card>
           </div>
