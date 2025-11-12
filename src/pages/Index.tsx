@@ -238,7 +238,7 @@ const Index = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">info@globus-travel.ru</p>
+                <p className="text-muted-foreground">info-globus-travel@inbox.ru</p>
               </CardContent>
             </Card>
           </div>
