@@ -221,8 +221,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Icon name="MapPin" size={24} className="text-primary" />
+                <CardTitle>
                   Адрес
                 </CardTitle>
               </CardHeader>
@@ -254,8 +253,7 @@ const Index = () => {
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Icon name="Clock" size={24} className="text-primary" />
+                <CardTitle>
                   Режим работы
                 </CardTitle>
               </CardHeader>
