@@ -39,7 +39,7 @@ export const ChatWidget = () => {
     setTimeout(() => {
       const autoReply: Message = {
         id: messages.length + 2,
-        text: 'Спасибо за ваше сообщение! Менеджер ответит в ближайшее время. Также вы можете позвонить нам: +7 (495) 123-45-67',
+        text: 'Спасибо за ваше сообщение! Менеджер ответит в ближайшее время. Также вы можете позвонить нам: +7 (960) 294-92-02',
         sender: 'manager',
         time: new Date().toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' })
       };
